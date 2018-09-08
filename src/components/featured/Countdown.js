@@ -40,40 +40,40 @@ class Countdown extends Component {
       return (
 
         <Slide left delay={1000}>
-          <div className="countdown_wrapper">
-            <div className="countdown_top">
+          <div className="countdown-wrapper">
+            <div className="countdown-top">
               Event starts in
             </div>
-            <div className="countdown_bottom">
-              <div className="countdown_item">
-                <div className="countdown_time">
+            <div className="countdown-bottom">
+              <div className="countdown-item">
+                <div className="countdown-time">
                   {this.state.days}
                 </div>
-                <div className="countdown_tag">
+                <div className="countdown-tag">
                   Days
                 </div>
               </div>
-              <div className="countdown_item">
-                <div className="countdown_time">
+              <div className="countdown-item">
+                <div className="countdown-time">
                   {this.state.hours}
                 </div>
-                <div className="countdown_tag">
+                <div className="countdown-tag">
                   Hours
                 </div>
               </div>
-              <div className="countdown_item">
-                <div className="countdown_time">
+              <div className="countdown-item">
+                <div className="countdown-time">
                   {this.state.minutes}
                 </div>
-                <div className="countdown_tag">
+                <div className="countdown-tag">
                   Minutes
                 </div>
               </div>
-              <div className="countdown_item">
-                <div className="countdown_time">
+              <div className="countdown-item">
+                <div className="countdown-time">
                   {this.state.seconds}
                 </div>
-                <div className="countdown_tag">
+                <div className="countdown-tag">
                   Seconds
                 </div>
               </div>
@@ -85,6 +85,5 @@ class Countdown extends Component {
   };
 
 }
-
 
 export default Countdown;
