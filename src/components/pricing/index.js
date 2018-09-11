@@ -6,8 +6,8 @@ import Zoom from 'react-reveal/Zoom';
 class Pricing extends Component {
 
   state ={
-    prices: [100, 150, 250],
-    positions: ['Balcony', 'Medium', 'Star'],
+    prices: [25, 50, 75],
+    positions: ['Standard', 'Balcony', 'VIP'],
     desc: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
@@ -22,7 +22,7 @@ class Pricing extends Component {
         <div className="pricing-item">
           <div className="pricing-inner-wrapper">
             <div className="pricing-title">
-              <span>${this.state.prices[i]}</span>
+              <span>£{this.state.prices[i]}</span>
               <span>{this.state.positions[i]}</span>
             </div>
             <div className="pricing-description">

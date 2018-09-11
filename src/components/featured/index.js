@@ -11,7 +11,7 @@ const Featured = () => {
 
         <div className="artist-name">
           <div className="wrapper">
-            Ariana Grande
+            Jazz Festival
           </div>
         </div>
 

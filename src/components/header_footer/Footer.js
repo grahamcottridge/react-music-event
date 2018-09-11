@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bck-red">
           <Fade delay={500}>
             <div className="font-righteous footer-logo-venue">The Venue</div>
-            <div className="footer-copyright">The venue 2018. All rights reserved</div>
+            <div className="footer-copyright">The Venue 2018. All rights reserved</div>
           </Fade>
         </footer>
 
