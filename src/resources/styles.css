@@ -32,11 +32,9 @@ body {
     margin:0 auto;
 }
 
-
 /*====================
         HEADER
 ======================*/
-
 
 header {
     padding:10px 0px;
@@ -73,7 +71,6 @@ footer .footer-copyright {
 /*====================
         CARROUSEL
 ======================*/
-
 
 .carousel-wrapper {
     height:700px;
