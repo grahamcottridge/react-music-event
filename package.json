@@ -6,13 +6,12 @@
     "@babel/runtime": "7.0.0-beta.55",
     "@material-ui/core": "^1.2.0",
     "@material-ui/icons": "^1.1.1",
-    "react": "^16.9.0",
+    "react": "^16.10.2",
     "react-dom": "^16.9.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^3.2.0",
     "react-scroll": "^1.7.14",
-    "react-slick": "^0.23.1",
-    "webpack-dev-server": "^3.8.1"
+    "react-slick": "^0.23.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +19,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "webpack": "^4.40.2"
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
