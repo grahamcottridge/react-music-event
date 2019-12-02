@@ -1,16 +1,16 @@
-import React from 'react';
-import Description from './Description';
-import Discount from './Discount';
+import React from "react";
+import Description from "./Description";
+import Discount from "./Discount";
 
 const Highlights = () => {
-    return (
-
+  return (
+    <div className="centre-wrapper">
       <div className="highlight-wrapper">
-        <Description/>
-        <Discount/>
+        <Description />
+        <Discount />
       </div>
-
-    );
+    </div>
+  );
 };
 
 export default Highlights;
